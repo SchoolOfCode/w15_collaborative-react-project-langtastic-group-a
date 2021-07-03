@@ -1,7 +1,12 @@
-import Links from "Links";
+import Links from "./Links";
 
 function HandburgerMenu() {
-  return <Links name="homepage"></Links>;
+  return (
+    <>
+      <Links></Links>
+    </>
+  );
 }
 
 export default HandburgerMenu;
+HandburgerMenu(["homepage"]);
