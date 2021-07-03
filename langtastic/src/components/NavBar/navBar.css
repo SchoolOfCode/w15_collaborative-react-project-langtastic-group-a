@@ -4,3 +4,21 @@
   background-color: black;
   margin: 0.625em;
 }
+#navbar {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 0 1em;
+  border: 1px solid black;
+}
+
+.flex {
+  display: flex;
+}
+#navbar-logo {
+  justify-content: space-around;
+  width: 45%;
+  align-content: center;
+}
