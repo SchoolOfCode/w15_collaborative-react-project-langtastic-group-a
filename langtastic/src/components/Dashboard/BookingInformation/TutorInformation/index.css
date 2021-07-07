@@ -1,5 +1,6 @@
 .tutor-information {
   max-height: 100%;
-  background-color: red;
-  object-fit: contain;
+  display: flex;
+  padding-right: 50px;
+  justify-content: space-evenly;
 }

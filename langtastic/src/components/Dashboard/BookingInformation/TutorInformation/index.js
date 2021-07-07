@@ -7,9 +7,11 @@ function TutorInformation({ tutorInfo }) {
   console.log(tutorInfo);
   return (
     <section className="tutor-information">
-      <TutorLanguages languagesArray={tutorInfo.languages}></TutorLanguages>
-      <TutorName name={tutorInfo.name}></TutorName>
       <TutorPicture src={tutorInfo.picture} alt="Tutor Image"></TutorPicture>
+      <div>
+        <TutorName name={tutorInfo.name}></TutorName>
+        <TutorLanguages languagesArray={tutorInfo.languages}></TutorLanguages>
+      </div>
     </section>
   );
 }

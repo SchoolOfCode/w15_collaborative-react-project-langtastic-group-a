@@ -1,6 +1,8 @@
 .booking-information {
   width: 330px;
   height: 200px;
-  /* background-color: red; */
   border: solid black;
+  border-radius: 20%;
+  margin: 20px;
+  justify-content: center;
 }
