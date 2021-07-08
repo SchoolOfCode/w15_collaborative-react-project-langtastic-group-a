@@ -1,0 +1,6 @@
+.tutor-information {
+  max-height: 100%;
+  display: flex;
+  padding-right: 50px;
+  justify-content: space-evenly;
+}
