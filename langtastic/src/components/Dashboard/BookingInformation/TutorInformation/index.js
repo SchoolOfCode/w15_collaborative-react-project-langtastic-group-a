@@ -9,8 +9,17 @@ function TutorInformation({ tutorInfo }) {
     <section className="tutor-information">
       <TutorPicture src={tutorInfo.picture} alt="Tutor Image"></TutorPicture>
       <div>
-        <TutorName name={tutorInfo.name}></TutorName>
-        <TutorLanguages languagesArray={tutorInfo.languages}></TutorLanguages>
+        `
+        <TutorName
+          name={`${tutorInfo.first_name} ${tutorInfo.last_name}`}
+        ></TutorName>
+        <TutorLanguages
+          languagesArray={[
+            tutorInfo.native_language,
+
+            tutorInfo.tought_language,
+          ]}
+        ></TutorLanguages>
       </div>
     </section>
   );

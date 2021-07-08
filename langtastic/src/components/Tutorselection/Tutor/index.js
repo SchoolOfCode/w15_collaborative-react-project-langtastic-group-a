@@ -1,9 +1,9 @@
 import React from "react";
-// import tutorData from "../../libs/data";
-function Tutor(props) {
+import TutorInformation from "../../Dashboard/BookingInformation/TutorInformation";
+function Tutor({ tutorData }) {
   // console.log("miao");
   // console.log(id);
-  return <p>{props.id}</p>;
+  return <TutorInformation tutorInfo={tutorData} />;
 }
 
 export default Tutor;
