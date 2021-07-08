@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import Tutor from "../Tutor";
+import Tutor from "./Tutor";
 import tutorData from "../../libs/data";
-function TutorSelection({ id }) {
+function TutorSelection() {
   const [tutors, setTutors] = useState(tutorData);
-  return <Tutor />;
+  //   console.log(tutorData[0]);
+  return <Tutor id={tutorData[0].id} />;
 }
 export default TutorSelection;

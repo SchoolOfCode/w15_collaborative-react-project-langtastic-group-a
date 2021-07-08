@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <NavBar></NavBar>
       <Dashboard></Dashboard>
-      <TutorSelection id={tutorData.id} />
+      <TutorSelection />
     </div>
   );
 }
