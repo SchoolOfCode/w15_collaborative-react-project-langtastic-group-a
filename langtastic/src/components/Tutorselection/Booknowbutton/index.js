@@ -1,4 +1,4 @@
-import "./../index.css";
+import "./index.css";
 function Bookingbutton({ color, width }) {
   return (
     <button
