@@ -1,0 +1,10 @@
+.tutor-selection {
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.tutor-information {
+  margin-bottom: 25px;
+}

@@ -3,7 +3,9 @@ import TutorInformation from "../../Dashboard/BookingInformation/TutorInformatio
 function Tutor({ tutorData }) {
   // console.log("miao");
   // console.log(id);
-  return <TutorInformation tutorInfo={tutorData} />;
+  return (
+    <TutorInformation className="tutor-information" tutorInfo={tutorData} />
+  );
 }
 
 export default Tutor;

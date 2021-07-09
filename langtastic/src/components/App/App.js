@@ -8,7 +8,9 @@ function App() {
     <div className="App">
       <NavBar></NavBar>
       <Dashboard></Dashboard>
-      <TutorSelection />
+      <section class="tutor-selection">
+        <TutorSelection />
+      </section>
     </div>
   );
 }

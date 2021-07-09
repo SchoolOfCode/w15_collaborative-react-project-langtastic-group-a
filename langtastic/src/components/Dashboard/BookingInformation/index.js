@@ -5,7 +5,7 @@ import "./index.css";
 function BookingInformation({ booking }) {
   console.log(booking.tutor.languages);
   return (
-    <section className="booking-information">
+    <div className="booking-information">
       <DateAndTime
         date={booking.timeAndDate.date}
         time={booking.timeAndDate.time}
@@ -14,7 +14,7 @@ function BookingInformation({ booking }) {
         className="inner-div"
         tutorInfo={booking.tutor}
       ></TutorInformation>
-    </section>
+    </div>
   );
 }
 export default BookingInformation;

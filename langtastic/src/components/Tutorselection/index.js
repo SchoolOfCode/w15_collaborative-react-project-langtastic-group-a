@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Tutor from "./Tutor";
+import "./index.css";
 
 import tutorData from "../../libs/data";
 function TutorSelection() {
