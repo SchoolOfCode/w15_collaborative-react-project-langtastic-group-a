@@ -28,6 +28,9 @@ function NavBar() {
           <Link to="/tutorselection">
             <p>TutorSelection</p>
           </Link>
+          <Link to="/appointment_confirmation">
+            <p>Appointment Confirmation</p>
+          </Link>
         </div>
       </section>
     </>

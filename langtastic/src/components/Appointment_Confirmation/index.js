@@ -1,5 +1,5 @@
 function AppointmentConfirmation() {
-  return <div>console.log("miao")</div>;
+  return <div>Hello from appointment confirmation</div>;
 }
 
 export default AppointmentConfirmation;

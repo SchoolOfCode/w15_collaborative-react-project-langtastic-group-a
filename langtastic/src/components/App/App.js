@@ -4,6 +4,7 @@ import Dashboard from "../Dashboard";
 import TutorSelection from "../Tutorselection";
 import Tutorsheader from "../Tutorselection/Tutorsheader";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import AppointmentConfirmation from "../Appointment_Confirmation";
 function App() {
   return (
     <Router>
@@ -12,8 +13,11 @@ function App() {
         <Switch>
           <Route path="/" exact />
           <Route path="/dashboard" component={Dashboard} />
-
-          <section class="tutor-selection">
+          <Route
+            path="/appointment_confirmation"
+            component={AppointmentConfirmation}
+          />
+          <section className="tutor-selection">
             <Tutorsheader></Tutorsheader>
             <Route path="/tutorselection" component={TutorSelection} />
           </section>
