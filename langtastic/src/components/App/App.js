@@ -3,7 +3,6 @@ import NavBar from "../NavBar";
 import Dashboard from "../Dashboard";
 import TutorSelection from "../Tutorselection";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import tutorData from "../../libs/data";
 function App() {
   return (
     <Router>

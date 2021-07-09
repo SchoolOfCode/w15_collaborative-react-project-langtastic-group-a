@@ -3,7 +3,6 @@ import Logo from "./Logo";
 import Title from "./Title";
 import "./navBar.css";
 import { Link } from "react-router-dom";
-import Dashboard from "../Dashboard";
 
 function NavBar() {
   return (

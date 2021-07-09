@@ -1,6 +1,6 @@
 import React from "react";
 import TutorCard from "./../Tutorcard";
-import Bookingbutton from "../Booknowbutton";
+
 function Tutor({ tutorData }) {
   // console.log("miao");
   // console.log(id);

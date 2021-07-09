@@ -2,7 +2,7 @@ import TutorLanguages from "./TutorLanguages";
 import TutorName from "./TutorName";
 import TutorPicture from "./TutorPicture";
 import "./index.css";
-import Bookingbutton from "../../../Tutorselection/Booknowbutton";
+
 function TutorInformation({ tutorInfo }) {
   console.log(tutorInfo);
   return (
