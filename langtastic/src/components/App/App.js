@@ -10,7 +10,7 @@ function App() {
       <div className="App">
         <NavBar></NavBar>
         <Switch>
-          {/* <Route path="/" component={Home} exact /> */}
+          <Route path="/" exact />
           <Route path="/dashboard" component={Dashboard} />
 
           <section class="tutor-selection">
