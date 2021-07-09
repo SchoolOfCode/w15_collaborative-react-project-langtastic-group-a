@@ -6,8 +6,14 @@ function BookingInformation({ booking }) {
   console.log(booking.tutor.languages);
   return (
     <section className="booking-information">
-      <DateAndTime date={booking.timeAndDate.date} time={booking.timeAndDate.time}></DateAndTime>
-      <TutorInformation tutorInfo={booking.tutor}></TutorInformation>
+      <DateAndTime
+        date={booking.timeAndDate.date}
+        time={booking.timeAndDate.time}
+      ></DateAndTime>
+      <TutorInformation
+        className="inner-div"
+        tutorInfo={booking.tutor}
+      ></TutorInformation>
     </section>
   );
 }

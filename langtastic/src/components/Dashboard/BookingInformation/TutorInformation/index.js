@@ -8,8 +8,8 @@ function TutorInformation({ tutorInfo }) {
   return (
     <section className="tutor-information">
       <TutorPicture src={tutorInfo.picture} alt="Tutor Image"></TutorPicture>
-      <div>
-        `
+      <div className="inner-div">
+        <p>XXXXX</p>
         <TutorName
           name={`${tutorInfo.first_name} ${tutorInfo.last_name}`}
         ></TutorName>
