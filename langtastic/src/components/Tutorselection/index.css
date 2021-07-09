@@ -43,3 +43,24 @@
   font-weight: medium;
   letter-spacing: 2px;
 }
+.tutors-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+
+  width: 100%;
+  align-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.tutors-header-title {
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.tutors-header-title {
+  /*! padding-right: 20px; */
+  height: 27px;
+  width: 73px;
+  font-size: 18px;
+}

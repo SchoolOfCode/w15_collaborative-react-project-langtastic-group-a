@@ -2,6 +2,7 @@ import "./App.css";
 import NavBar from "../NavBar";
 import Dashboard from "../Dashboard";
 import TutorSelection from "../Tutorselection";
+import Tutorsheader from "../Tutorselection/Tutorsheader";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/dashboard" component={Dashboard} />
 
           <section class="tutor-selection">
+            <Tutorsheader></Tutorsheader>
             <Route path="/tutorselection" component={TutorSelection} />
           </section>
         </Switch>
