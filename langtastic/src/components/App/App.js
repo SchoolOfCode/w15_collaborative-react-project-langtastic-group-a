@@ -2,16 +2,24 @@ import "./App.css";
 import NavBar from "../NavBar";
 import Dashboard from "../Dashboard";
 import TutorSelection from "../Tutorselection";
-import tutorData from "../../libs/data";
+import Tutorsheader from "../Tutorselection/Tutorsheader";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      <NavBar></NavBar>
-      <Dashboard></Dashboard>
-      <section class="tutor-selection">
-        <TutorSelection />
-      </section>
-    </div>
+    <Router>
+      <div className="App">
+        <NavBar></NavBar>
+        <Switch>
+          <Route path="/" exact />
+          <Route path="/dashboard" component={Dashboard} />
+
+          <section class="tutor-selection">
+            <Tutorsheader></Tutorsheader>
+            <Route path="/tutorselection" component={TutorSelection} />
+          </section>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

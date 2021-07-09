@@ -4,7 +4,7 @@ import "./index.css";
 
 import tutorData from "../../libs/data";
 function TutorSelection() {
-  const [tutors, setTutors] = useState(tutorData);
+  useState(tutorData);
   //   console.log(tutorData[0]);
 
   return tutorData.map((tutor) => {

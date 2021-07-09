@@ -1,0 +1,9 @@
+.btn {
+  border: 1px solid black;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 31px;
+}
+.book-now {
+  margin-top: 15px;
+}
