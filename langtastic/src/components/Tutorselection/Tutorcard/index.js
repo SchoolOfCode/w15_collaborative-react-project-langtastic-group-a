@@ -19,7 +19,7 @@ function TutorCard({ tutorInfo }) {
             tutorInfo.tought_language,
           ]}
         ></TutorLanguages>
-        <Bookingbutton />
+        <Bookingbutton width="100px" color="white" />
       </div>
     </section>
   );
