@@ -1,9 +1,8 @@
-import TutorLanguages from "./TutorLanguages";
-import TutorName from "./TutorName";
-import TutorPicture from "./TutorPicture";
-import "./index.css";
-import Bookingbutton from "../../../Tutorselection/Booknowbutton";
-function TutorInformation({ tutorInfo }) {
+import TutorLanguages from "./../../Dashboard/BookingInformation/TutorInformation/TutorLanguages";
+import TutorName from "./../../Dashboard/BookingInformation/TutorInformation/TutorName";
+import TutorPicture from "./../../Dashboard/BookingInformation/TutorInformation/TutorPicture";
+import Bookingbutton from "./../Booknowbutton";
+function TutorCard({ tutorInfo }) {
   console.log(tutorInfo);
   return (
     <section className="tutor-information">
@@ -20,8 +19,9 @@ function TutorInformation({ tutorInfo }) {
             tutorInfo.tought_language,
           ]}
         ></TutorLanguages>
+        <Bookingbutton />
       </div>
     </section>
   );
 }
-export default TutorInformation;
+export default TutorCard;
