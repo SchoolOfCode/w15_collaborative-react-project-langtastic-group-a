@@ -3,7 +3,6 @@ import TutorName from "./../../Dashboard/BookingInformation/TutorInformation/Tut
 import TutorPicture from "./../../Dashboard/BookingInformation/TutorInformation/TutorPicture";
 import Bookingbutton from "./../Booknowbutton";
 function TutorCard({ tutorInfo }) {
-  console.log(tutorInfo);
   return (
     <section className="tutor-information">
       <TutorPicture src={tutorInfo.picture} alt="Tutor Image"></TutorPicture>
