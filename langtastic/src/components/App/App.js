@@ -19,15 +19,15 @@ function App() {
         <Switch>
           <Route path="/" exact />
           <Route path="/dashboard" component={Dashboard} />
-          {/* <Route
-            path="/appointment_confirmation"
-            component={Appointmentconfirmationwrapper}
-          /> */}
 
           <section className="tutor-selection">
             <Tutorsheader></Tutorsheader>
             <Route path="/tutorselection" component={TutorSelection} />
           </section>
+          <Route
+            path="/appointment_confirmation"
+            component={AppointmentConfirmation}
+          />
         </Switch>
       </div>
     </Router>
