@@ -4,19 +4,25 @@ import Dashboard from "../Dashboard";
 import TutorSelection from "../Tutorselection";
 import Tutorsheader from "../Tutorselection/Tutorsheader";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import AppointmentConfirmation from "../Appointment_Confirmation";
+
+import tutorData from "../../libs/data";
 function App() {
   return (
     <Router>
       <div className="App">
         <NavBar></NavBar>
+
         <Switch>
           <Route path="/" exact />
           <Route path="/dashboard" component={Dashboard} />
 
-          <section class="tutor-selection">
-            <Tutorsheader></Tutorsheader>
-            <Route path="/tutorselection" component={TutorSelection} />
-          </section>
+          <Route path="/tutorselection" component={TutorSelection} />
+
+          <Route
+            path="/appointment_confirmation"
+            component={AppointmentConfirmation}
+          />
         </Switch>
       </div>
     </Router>
