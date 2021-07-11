@@ -1,14 +1,27 @@
-export default function ConfirmationBox() {
-  function handleClick(value) {
-    if (value === "no") {
-      console.log("hello from no");
-    }
+import { Link } from "react-router-dom";
+import { useState } from "react";
+function ConfirmationBox(props) {
+  const [confirmed, setConfirmed] = useState(false);
+
+  let box;
+  if (confirmed == true) {
+    box = (
+      <div>
+        <p>Session booked</p>
+        <div>Icon</div>
+      </div>
+    );
+  } else {
+    box = (
+      <div>
+        <p>Are you sure you want to book the session?</p>
+        <Link to="/tutorselection">
+          <button>No</button>
+        </Link>
+        <button onClick={() => setConfirmed(true)}>Yes</button>
+      </div>
+    );
   }
-  return (
-    <div>
-      <p>Are you sure you want to book the session?</p>
-      <button onClick={() => handleClick("no")}>No</button>
-      <button onClick={() => handleClick("yes")}>Yes</button>
-    </div>
-  );
+  return <div>{box}</div>;
 }
+export default ConfirmationBox;
