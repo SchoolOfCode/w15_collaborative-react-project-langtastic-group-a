@@ -1,12 +1,21 @@
 import "./index.css";
 import { Link } from "react-router-dom";
-function Bookingbutton({ color, width }) {
+function Bookingbutton({ color, width, tutorInfo }) {
   return (
     <button
       class="btn book-now"
       style={{ backgroundColor: color, width: width }}
     >
-      <Link to="/appointment_confirmation">Book now</Link>
+      <Link
+        to={{
+          pathname: "/appointment_confirmation",
+          state: {
+            dog: tutorInfo,
+          },
+        }}
+      >
+        Book now
+      </Link>
     </button>
   );
 }

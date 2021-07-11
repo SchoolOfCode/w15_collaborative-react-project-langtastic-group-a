@@ -28,8 +28,16 @@ function NavBar() {
           <Link to="/tutorselection">
             <p>TutorSelection</p>
           </Link>
-          <Link to="/appointment_confirmation">
-            <p>Appointment Confirmation</p>
+
+          <Link
+            to={{
+              pathname: "/appointment_confirmation",
+              state: {
+                dog: "rookie",
+              },
+            }}
+          >
+            Appointment Confirmation
           </Link>
         </div>
       </section>

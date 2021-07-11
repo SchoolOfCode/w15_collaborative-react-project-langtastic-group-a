@@ -12,18 +12,13 @@ function App() {
     <Router>
       <div className="App">
         <NavBar></NavBar>
-        <AppointmentConfirmation
-          name="miao"
-          tutorInfo={tutorData}
-        ></AppointmentConfirmation>
+
         <Switch>
           <Route path="/" exact />
           <Route path="/dashboard" component={Dashboard} />
 
-          <section className="tutor-selection">
-            <Tutorsheader></Tutorsheader>
-            <Route path="/tutorselection" component={TutorSelection} />
-          </section>
+          <Route path="/tutorselection" component={TutorSelection} />
+
           <Route
             path="/appointment_confirmation"
             component={AppointmentConfirmation}
