@@ -18,8 +18,8 @@ const bookings = [
     id: 1,
     tutor: tutor1,
     timeAndDate: {
-      time: "12:30",
-      date: "21/08/2021",
+      time: "09:07",
+      date: "2021/07/11",
     },
   },
   {
@@ -27,7 +27,7 @@ const bookings = [
     tutor: tutor2,
     timeAndDate: {
       time: "15:45",
-      date: "06/07/2021",
+      date: "2020/12/25",
     },
   },
 ];
