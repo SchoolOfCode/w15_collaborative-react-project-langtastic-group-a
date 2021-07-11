@@ -1,0 +1,24 @@
+h1 {
+  color: #551a8b;
+}
+
+#home-page {
+  background-color: white;
+  margin-left: 750px;
+  width: 22%;
+  align-items: center;
+  border: 1px solid black;
+  text-align: initial;
+}
+
+div {
+  box-shadow: 0 10px 16px 0 rgba(102, 55, 55, 0.2);
+  transition: 0.5s;
+}
+
+/* .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+} */
