@@ -12,7 +12,7 @@ function AppointmentConfirmation() {
     <div>
       {Rating(cat.rating)}
       <TutorPicture src={cat.picture} alt="Tutor Image" />
-      <TutorName name={`${cat.first_name} ${cat.last_name}`} />
+      <TutorName name={`${cat.first_name} ${cat.last_name} `} />
       <ConfirmationBox></ConfirmationBox>
     </div>
   );
