@@ -1,6 +1,4 @@
-import { useState } from "react";
 export default function ConfirmationBox() {
-  const [confirmation, setConfirmation] = useState(null);
   function handleClick(value) {
     if (value === "no") {
       console.log("hello from no");
