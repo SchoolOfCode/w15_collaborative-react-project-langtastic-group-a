@@ -16,7 +16,7 @@ function App() {
         <NavBar></NavBar>
 
         <Switch>
-          <Route path="/" exact />
+          <Route path="/" component={HomePage} exact />
           <Route path="/dashboard" component={Dashboard} />
 
           <Route path="/tutorselection" component={TutorSelection} />
@@ -27,10 +27,6 @@ function App() {
           />
         </Switch>
       </div>
-      <HomePage></HomePage>
-      {/* <div>
-        <CalendarComponent className="Calendar"></CalendarComponent>
-      </div> */}
     </Router>
   );
 }
