@@ -14,3 +14,6 @@ I have ran a series of tests that have eached tested a variety of different thin
 
 **NavBar**
 [Click here](langtastic\src\components\NavBar\NavBar.test.js)
+
+**SignIn**
+[Click here](langtastic\src\components\SignIn\signin.test.js)
