@@ -8,3 +8,6 @@ I have ran a series of tests that have eached tested a variety of different thin
 
 **Appointment_confirmation**
 [Click here](langtastic\src\components\Appointment_Confirmation)
+
+**Dashboard**
+[Click here](langtastic\src\components\Dashboard\index.js)

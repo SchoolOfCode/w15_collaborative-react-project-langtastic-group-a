@@ -13,7 +13,7 @@ function Dashboard() {
     return bookingDate < Date.now();
   });
   return (
-    <div>
+    <div data-testid='dashboard-container'>
       <h2>Upcoming Bookings</h2>
 
       {upcomingBookings.map((booking) => {
