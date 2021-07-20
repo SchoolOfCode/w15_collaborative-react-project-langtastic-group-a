@@ -4,7 +4,10 @@
 
 ## Testing:
 
-I have ran a series of tests that have eached tested a variety of different things. Firstly, i focused on rendering the components and making sure the test was passed.
+I have ran a series of tests that have eached tested a variety of different things. 
+Firstly, i focused on rendering the components and making sure the test passed which showed that it correctly rendered on the page.
+
+### Components:
 
 **Appointment_confirmation**
 [Click here](langtastic\src\components\Appointment_Confirmation)
@@ -17,3 +20,6 @@ I have ran a series of tests that have eached tested a variety of different thin
 
 **SignIn**
 [Click here](langtastic\src\components\SignIn\signin.test.js)
+
+**SignUp**
+[Click here](langtastic\src\components\SignUp\signup.test.js)

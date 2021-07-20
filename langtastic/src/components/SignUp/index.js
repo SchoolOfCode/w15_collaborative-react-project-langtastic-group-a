@@ -2,7 +2,7 @@ import React from "react";
 
 function SignUp(){
     return(
-        <button> Sign up</button>
+        <button data-testid='signup-button'> Sign up</button>
     )
 }
 
