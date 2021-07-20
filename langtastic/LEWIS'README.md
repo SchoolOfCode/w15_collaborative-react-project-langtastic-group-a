@@ -10,27 +10,27 @@ Firstly, i focused on rendering the components and making sure the test passed w
 
 ### Test files for Components:
 
-**Appointment_confirmation**
+**Appointment_confirmation:**
 [Click here](langtastic\src\components\Appointment_Confirmation)
 
-**Dashboard**
+**Dashboard:**
 [Click here](langtastic\src\components\Dashboard\index.js)
 
-1. **Booking information**
+- **Booking information:**
 
-    - **Date & Time**
+    - **Date & Time:**
     [Click here](langtastic\src\components\Dashboard\BookingInformation\DateAndTime\dateandtime.test.js)
 
-    - **TutorInformation**
+    - **TutorInformation:**
     [Click here](langtastic\src\components\Dashboard\BookingInformation\TutorInformation\tutorinformation.test.js)
 
 
 
-**NavBar**
+**NavBar:**
 [Click here](langtastic\src\components\NavBar\NavBar.test.js)
 
-**SignIn**
+**SignIn:**
 [Click here](langtastic\src\components\SignIn\signin.test.js)
 
-**SignUp**
+**SignUp:**
 [Click here](langtastic\src\components\SignUp\signup.test.js)
