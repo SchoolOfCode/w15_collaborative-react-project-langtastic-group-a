@@ -13,7 +13,7 @@ function ConfirmationBox(props) {
     );
   } else {
     box = (
-      <div>
+      <div >
         <p>Are you sure you want to book the session?</p>
         <Link to="/tutorselection">
           <button>No</button>
@@ -22,6 +22,6 @@ function ConfirmationBox(props) {
       </div>
     );
   }
-  return <div>{box}</div>;
+  return <div data-testid='confirmationbox-container'>{box}</div>;
 }
 export default ConfirmationBox;
