@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <>
-      <section id="navbar">
+      <section id="navbar" data-testid="navbar-container">
         <div id="navbar-logo" className="flex">
           <Link to="/">
             <Logo></Logo>{" "}

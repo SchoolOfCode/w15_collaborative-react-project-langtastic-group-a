@@ -11,3 +11,6 @@ I have ran a series of tests that have eached tested a variety of different thin
 
 **Dashboard**
 [Click here](langtastic\src\components\Dashboard\index.js)
+
+**NavBar**
+[Click here](langtastic\src\components\NavBar\NavBar.test.js)
