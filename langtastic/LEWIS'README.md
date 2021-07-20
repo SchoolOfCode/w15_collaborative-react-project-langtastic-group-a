@@ -16,13 +16,13 @@ Firstly, i focused on rendering the components and making sure the test passed w
 **Dashboard**
 [Click here](langtastic\src\components\Dashboard\index.js)
 
-1. **Bookinginformation**
+1. **Booking information**
 
-- **Date & Time**
-[Click here](langtastic\src\components\Dashboard\BookingInformation\DateAndTime\dateandtime.test.js)
+    - **Date & Time**
+    [Click here](langtastic\src\components\Dashboard\BookingInformation\DateAndTime\dateandtime.test.js)
 
-- **TutorInformation**
-[Click here](langtastic\src\components\Dashboard\BookingInformation\TutorInformation\tutorinformation.test.js)
+    - **TutorInformation**
+    [Click here](langtastic\src\components\Dashboard\BookingInformation\TutorInformation\tutorinformation.test.js)
 
 
 
