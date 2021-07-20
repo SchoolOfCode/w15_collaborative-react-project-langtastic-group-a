@@ -15,6 +15,9 @@ Firstly, i focused on rendering the components and making sure the test passed w
 **Dashboard**
 [Click here](langtastic\src\components\Dashboard\index.js)
 
+1- **Date & Time**
+[Click here](langtastic\src\components\Dashboard\BookingInformation\DateAndTime\dateandtime.test.js)
+
 **NavBar**
 [Click here](langtastic\src\components\NavBar\NavBar.test.js)
 
