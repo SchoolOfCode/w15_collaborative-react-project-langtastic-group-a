@@ -1,13 +1,14 @@
-# Testing and Documentation:
+# Testing and Documentation
 
 ## Using the React Hook:
 
 ## Testing:
 
-I have ran a series of tests that have eached tested a variety of different things. 
-Firstly, i focused on rendering the components and making sure the test passed which showed that it correctly rendered on the page.
+As part of this checkpoint challenge we were given the task to test the logic and the components of this project, which was created by another group.
 
-### Components:
+Firstly, i focused on rendering the components and making sure the test passed which showed that it correctly rendered on the page. This is a pretty simple test but a good base to start on before i delved into the more advanced tests.
+
+### Test files for Components:
 
 **Appointment_confirmation**
 [Click here](langtastic\src\components\Appointment_Confirmation)
@@ -15,8 +16,15 @@ Firstly, i focused on rendering the components and making sure the test passed w
 **Dashboard**
 [Click here](langtastic\src\components\Dashboard\index.js)
 
-1- **Date & Time**
+1. **Bookinginformation**
+
+- **Date & Time**
 [Click here](langtastic\src\components\Dashboard\BookingInformation\DateAndTime\dateandtime.test.js)
+
+- **TutorInformation**
+[Click here](langtastic\src\components\Dashboard\BookingInformation\TutorInformation\tutorinformation.test.js)
+
+
 
 **NavBar**
 [Click here](langtastic\src\components\NavBar\NavBar.test.js)
