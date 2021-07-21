@@ -1,10 +1,10 @@
-import { Link } from "react-router-dom";
-import { useState } from "react";
+import { Link } from 'react-router-dom';
+import { useState } from 'react';
 function ConfirmationBox(props) {
   const [confirmed, setConfirmed] = useState(false);
 
   let box;
-  if (confirmed == true) {
+  if (confirmed === true) {
     box = (
       <div>
         <p>Session booked</p>
