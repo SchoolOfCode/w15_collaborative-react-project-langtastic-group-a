@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 
-import ConfirmationBox from './Confirmationbox';
+import ConfirmationBox from './';
 
 test(`The confirmation box renders within the Appointmentconfirmation container`, () => {
   //Arrange
