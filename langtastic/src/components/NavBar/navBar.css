@@ -10,7 +10,7 @@
   justify-content: space-between;
   width: 100%;
   align-items: center;
-  border: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .flex {
@@ -19,5 +19,20 @@
 #navbar-logo {
   justify-content: space-around;
   width: 45%;
-  align-content: center;
+  align-items: center;
+}
+#navbar-logo a img {
+  border: none;
+  border-radius: 0;
+}
+
+.hamburger-container {
+  height: 50px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: blueviolet;
 }

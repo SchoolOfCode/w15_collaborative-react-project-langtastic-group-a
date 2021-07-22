@@ -17,28 +17,18 @@ function NavBar() {
           </Link>
         </div>
         <div>
-          <div className="handburgerbutton"></div>
-          <div className="handburgerbutton"></div>
-          <div className="handburgerbutton"></div>
-        </div>
-        <div>
           <Link to="/dashboard">
             <p>Dashboard</p>
           </Link>
           <Link to="/tutorselection">
             <p>TutorSelection</p>
           </Link>
+        </div>
 
-          <Link
-            to={{
-              pathname: "/appointment_confirmation",
-              state: {
-                dog: "rookie",
-              },
-            }}
-          >
-            Appointment Confirmation
-          </Link>
+        <div className="hamburger-container">
+          <div className="handburgerbutton"></div>
+          <div className="handburgerbutton"></div>
+          <div className="handburgerbutton"></div>
         </div>
       </section>
     </>

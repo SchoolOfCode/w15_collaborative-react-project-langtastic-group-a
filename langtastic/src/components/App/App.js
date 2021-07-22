@@ -2,13 +2,11 @@ import "./App.css";
 import NavBar from "../NavBar";
 import Dashboard from "../Dashboard";
 import TutorSelection from "../Tutorselection";
-import Tutorsheader from "../Tutorselection/Tutorsheader";
 // import { CalendarComponent } from "@syncfusion/ej2-react-calendars";
 import HomePage from "../HomePage/index";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AppointmentConfirmation from "../Appointment_Confirmation";
 
-import tutorData from "../../libs/data";
 function App() {
   return (
     <Router>

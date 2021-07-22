@@ -6,9 +6,15 @@ import tutorData from "../../libs/data";
 function TutorSelection() {
   useState(tutorData);
   //   console.log(tutorData[0]);
-
-  return tutorData.map((tutor) => {
-    return <Tutor tutor={tutor} />;
-  });
+  return (
+    <div
+      className="tutor-selection-container
+    "
+    >
+      {tutorData.map((tutor) => {
+        return <Tutor tutor={tutor} />;
+      })}
+    </div>
+  );
 }
 export default TutorSelection;

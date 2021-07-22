@@ -39,3 +39,9 @@
     transform: rotate(360deg);
   }
 }
+.tutor-selection-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
