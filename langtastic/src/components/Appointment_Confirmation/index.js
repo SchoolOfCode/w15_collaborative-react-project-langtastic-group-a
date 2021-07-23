@@ -9,7 +9,7 @@ function AppointmentConfirmation() {
   const cat = location.state.dog;
   console.log(location);
   return (
-    <div>
+    <div data-testid="appt-confirmation">
       {Rating(cat.rating)}
       <TutorPicture src={cat.picture} alt="Tutor Image" />
       <TutorName name={`${cat.first_name} ${cat.last_name} `} />

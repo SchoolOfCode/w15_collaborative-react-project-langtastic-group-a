@@ -22,6 +22,6 @@ function ConfirmationBox(props) {
       </div>
     );
   }
-  return <div>{box}</div>;
+  return <div data-testid="confirmation-box">{box}</div>;
 }
 export default ConfirmationBox;
