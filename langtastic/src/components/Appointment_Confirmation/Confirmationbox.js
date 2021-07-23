@@ -4,7 +4,7 @@ function ConfirmationBox(props) {
   const [confirmed, setConfirmed] = useState(false);
 
   let box;
-  if (confirmed == true) {
+  if (confirmed === true) {
     box = (
       <div>
         <p>Session booked</p>
@@ -18,7 +18,9 @@ function ConfirmationBox(props) {
         <Link to="/tutorselection">
           <button>No</button>
         </Link>
-        <button onClick={() => setConfirmed(true)}>Yes</button>
+        <button data-testid="button" onClick={() => setConfirmed(true)}>
+          Yes
+        </button>
       </div>
     );
   }

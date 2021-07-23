@@ -6,7 +6,7 @@ import "./index.css";
 function TutorInformation({ tutorInfo }) {
   console.log(tutorInfo);
   return (
-    <section className="tutor-information">
+    <section data-testid="tutor-info" className="tutor-information">
       <TutorPicture src={tutorInfo.picture} alt="Tutor Image"></TutorPicture>
       <div className="inner-div">
         <p>XXXXX</p>

@@ -2,7 +2,7 @@ import { render } from "@testing-library/react";
 import { BrowserRouter } from "react-router-dom";
 import "@testing-library/jest-dom";
 
-import NavBar from "../NavBar";
+import NavBar from ".";
 
 test("navbar should render onto the DOM", () => {
   const { getByTestId } = render(
