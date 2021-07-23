@@ -12,8 +12,8 @@ import Footer from "./Footer";
 
 function HomePage() {
   return (
-    <section id="home-page" data-testid="homepage">
-      <div className="call-to-action">
+    <section className="call-to-action" id="home-page" data-testid="homepage">
+      <div data-testid="call-to-action" className="call-to-action">
         <h1> Learning a new language is never been so easy. </h1>
         <p>
           {" "}
