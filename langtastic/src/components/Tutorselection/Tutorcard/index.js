@@ -5,7 +5,7 @@ import Bookingbutton from "./../Booknowbutton";
 import { Rating } from "./../../../utils/utils";
 function TutorCard({ tutorInfo }) {
   return (
-    <section className="tutor-information">
+    <section data-testid="tutor-card" className="tutor-information">
       <TutorPicture src={tutorInfo.picture} alt="Tutor Image"></TutorPicture>
       <div className="inner-div">
         {Rating(tutorInfo.rating)}
