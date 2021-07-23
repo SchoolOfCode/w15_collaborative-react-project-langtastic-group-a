@@ -13,7 +13,7 @@ function NavBar() {
             <Logo></Logo>{" "}
           </Link>
           <Link to="/">
-            <Title title="Langtastic"></Title>
+            <Title data-testid="title" title="Langtastic"></Title>
           </Link>
         </div>
         <div>
@@ -26,7 +26,7 @@ function NavBar() {
             <p>Dashboard</p>
           </Link>
           <Link to="/tutorselection">
-            <p>TutorSelection</p>
+            <p data-testid="tutor-selection">TutorSelection</p>
           </Link>
 
           <Link
@@ -36,6 +36,7 @@ function NavBar() {
                 dog: "rookie",
               },
             }}
+            data-testid="confirmation"
           >
             Appointment Confirmation
           </Link>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Bookingbutton({ color, width, tutorInfo }) {
   return (
     <button
-      class="btn book-now"
+      className="btn book-now"
       style={{ backgroundColor: color, width: width }}
     >
       <Link
