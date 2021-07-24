@@ -25,12 +25,12 @@ The appointment confirmation page gives the user a summary of their proposed boo
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FuDF5HrQbouWqzKtDLctDEb%2FLangtastic-Component-Tree%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
 
 There are many smaller components, but the main components are:
--Navbar
--HomePage
--Dashboard
--TutorCard
--AppointmentConfirmation
--ConfirmationBox
+- Navbar
+- HomePage
+- Dashboard
+- TutorCard
+- AppointmentConfirmation
+- ConfirmationBox
 
 # Getting Started with Create React App
 
