@@ -1,0 +1,16 @@
+.tutor-information {
+  max-height: 100%;
+  display: flex;
+
+  justify-content: space-between;
+  border: 2px solid #c700ff;
+  align-content: center;
+  align-items: center;
+  width: 330px;
+  height: 135px;
+  padding: 18px;
+  border-radius: 31px;
+  grid-gap: 18px;
+  gap: 18px;
+  flex-direction: row reverse;
+}

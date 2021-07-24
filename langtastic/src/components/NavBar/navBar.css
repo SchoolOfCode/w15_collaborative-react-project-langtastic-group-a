@@ -1,0 +1,38 @@
+.handburgerbutton {
+  width: 1.875rem;
+  height: 0.05rem;
+  background-color: black;
+  margin: 0.625em;
+}
+#navbar {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.flex {
+  display: flex;
+}
+#navbar-logo {
+  justify-content: space-around;
+  width: 45%;
+  align-items: center;
+}
+#navbar-logo a img {
+  border: none;
+  border-radius: 0;
+}
+
+.hamburger-container {
+  height: 50px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: blueviolet;
+}

@@ -1,0 +1,13 @@
+.btn {
+  border: 1px solid black;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 31px;
+
+  border: none;
+  color: white;
+}
+.book-now {
+  margin-top: 15px;
+  background-color: #c700ff;
+}

@@ -1,0 +1,62 @@
+.tutor-selection {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.tutor-information {
+  margin-bottom: 25px;
+}
+.inner-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.inner-div p {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.language-div {
+  display: flex;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  min-width: 95%;
+}
+.language-div p {
+  /*! padding-right: 15px; */
+  margin: 0;
+}
+.tutor-name {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: medium;
+  letter-spacing: 2px;
+}
+.tutors-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+
+  width: 100%;
+  align-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.tutors-header-title {
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.tutors-header-title {
+  /*! padding-right: 20px; */
+  height: 27px;
+  width: 73px;
+  font-size: 18px;
+}

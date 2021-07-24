@@ -1,0 +1,38 @@
+.confirmation-box {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  border-radius: 27px;
+  align-items: center;
+}
+.confirmation-box p {
+  font-size: 18px;
+}
+.confirmation-button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+}
+.no-button {
+  width: 70px;
+  border: none;
+  border-radius: 27px;
+  background: #c700ff;
+  color: white;
+  text-transform: uppercase;
+  padding: 0.2em;
+}
+.yes-button {
+  width: 70px;
+  border: none;
+  border-radius: 27px;
+  background: #fff;
+  color: black;
+  text-transform: uppercase;
+  padding: 0.2em;
+  border: 1px solid #c700ff;
+}
