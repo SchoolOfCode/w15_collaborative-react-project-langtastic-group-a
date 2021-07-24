@@ -3,7 +3,8 @@ Langtastic was created by: Muna Fidow, Ines Perez and Toby Smith and Jubair Ahme
 
 Langtastic is a web app designed to connect language learners to tutors. The platform allows users to book and manage appointments, and find a new tutor should they wish to learn a new language or switch tutors. 
 
-![](image.png)
+![image](https://user-images.githubusercontent.com/81474704/126873175-9250e56e-2e01-4b79-8446-c0ae75fb0228.png)
+
 ## App Level
 
 The app uses react router to manage the navigation between different pages of the app. More information about react-router can be found [here:](https://reactrouter.com/web/guides/quick-start)
