@@ -76,7 +76,9 @@ Some examples are shown below.
 - [Test to check that components are visible] (https://github.com/SchoolOfCode/w15_collaborative-react-project-langtastic-group-a/blob/natpinnock-testing-and-documentation/langtastic/src/components/Tutorselection/Tutorcard/tutorcard.test.js)
 
 ### Cypress
-- [checking that homepage renderd] ()
+- [checking that homepage renderd] (https://github.com/SchoolOfCode/w15_collaborative-react-project-langtastic-group-a/blob/natpinnock-testing-and-documentation/langtastic/cypress/integration/init.spec.js)
+- [End to End testing for booking and appointment] (https://github.com/SchoolOfCode/w15_collaborative-react-project-langtastic-group-a/blob/natpinnock-testing-and-documentation/langtastic/cypress/integration/homepage.spec.js)
+- [Check that the tutor data contains the correct number of entries] (https://github.com/SchoolOfCode/w15_collaborative-react-project-langtastic-group-a/blob/natpinnock-testing-and-documentation/langtastic/cypress/integration/tutors.spec.js)
 
 ## useReducer
 As there was only one instance of state within the app, useReducer has been used once: 
