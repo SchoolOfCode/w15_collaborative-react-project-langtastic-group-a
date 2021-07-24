@@ -1,3 +1,37 @@
+# About Langtastic
+Langtastic was created by: Muna Fidow, Ines Perez and Toby Smith and Jubair Ahmed. 
+
+Langtastic is a web app designed to connect language learners to tutors. The platform allows users to book and manage appointments, and find a new tutor should they wish to learn a new language or switch tutors. 
+
+## Home Page
+
+The homepage shows information about learning a new language, help with finding a tutor and some reviews of the site. 
+COMING SOON - log in or sign up to review/add lesson bookings!
+
+## Dashboard
+
+The dashboard allows the user to see any past and upcoming appointments, who they are with, and the time and data. 
+
+## Tutor Selection
+
+The tutor selection page allows the user to find a new tutor and book an appointment with them. 
+
+## Appointment Confirmation
+
+The appointment confirmation page gives the user a summary of their proposed booking before letting them confirm.  
+
+# Here is a component tree for the Langtastic App
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FuDF5HrQbouWqzKtDLctDEb%2FLangtastic-Component-Tree%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+
+There are many smaller components, but the main components are:
+-Navbar
+-HomePage
+-Dashboard
+-TutorCard
+-AppointmentConfirmation
+-ConfirmationBox
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
