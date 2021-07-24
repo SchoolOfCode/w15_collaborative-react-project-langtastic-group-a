@@ -7,6 +7,7 @@ function Bookingbutton({ color, width, tutorInfo }) {
       style={{ backgroundColor: color, width: width }}
     >
       <Link
+        className="book-now"
         to={{
           pathname: "/appointment_confirmation",
           state: {

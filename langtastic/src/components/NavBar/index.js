@@ -26,15 +26,14 @@ function NavBar() {
             <p>Dashboard</p>
           </Link>
           <Link to="/tutorselection">
-            <p data-testid="tutor-selection">TutorSelection</p>
+            <p data-testid="tutor-selection" className="tutorselection">
+              TutorSelection
+            </p>
           </Link>
 
           <Link
             to={{
               pathname: "/appointment_confirmation",
-              state: {
-                dog: "rookie",
-              },
             }}
             data-testid="confirmation"
           >

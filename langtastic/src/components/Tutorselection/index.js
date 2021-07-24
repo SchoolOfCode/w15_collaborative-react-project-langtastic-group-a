@@ -8,7 +8,7 @@ function TutorSelection() {
   //   console.log(tutorData[0]);
 
   return tutorData.map((tutor) => {
-    return <Tutor data-testid="tutor-data" tutor={tutor} />;
+    return <Tutor key={tutor.id} data-testid="tutor-data" tutor={tutor} />;
   });
 }
 export default TutorSelection;

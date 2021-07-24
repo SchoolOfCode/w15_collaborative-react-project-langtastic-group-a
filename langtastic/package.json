@@ -21,14 +21,28 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "cypress": "cypress open",
+    "lint": "tsc --project tsconfig.lint.json",
+    "lint:cypress": "tsc --project cypress/tsconfig.json"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "plugin:cypress/recommended"
     ]
   },
+  "overrides": [
+    {
+      "files": [
+        "*.spec.js"
+      ],
+      "rules": {
+        "no-unused-expressions": 0
+      }
+    }
+  ],
   "browserslist": {
     "production": [
       ">0.2%",
@@ -43,6 +57,7 @@
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.14.1",
-    "cypress": "^8.0.0"
+    "cypress": "^8.0.0",
+    "eslint-plugin-cypress": "^2.11.3"
   }
 }

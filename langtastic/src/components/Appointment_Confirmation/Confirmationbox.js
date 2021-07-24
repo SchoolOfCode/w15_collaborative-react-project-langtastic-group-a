@@ -23,7 +23,7 @@ function ConfirmationBox(props) {
   if (state.confirmed === true) {
     box = (
       <div>
-        <p>Session booked</p>
+        <p className="booked">Session booked</p>
         <div>Icon</div>
       </div>
     );
@@ -33,15 +33,16 @@ function ConfirmationBox(props) {
         <p>Are you sure you want to book the session?</p>
         <Link to="/tutorselection">
           <button
-            onClick={() => {
-              dispatch({ type: "no" });
-            }}
+          // onClick={() => {
+          //   dispatch({ type: "no" });
+          // }}
           >
             No
           </button>
         </Link>
         <button
           data-testid="button"
+          className="yes"
           onClick={() => {
             dispatch({ type: "yes" });
           }}
