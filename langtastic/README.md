@@ -20,9 +20,7 @@ The tutor selection page allows the user to find a new tutor and book an appoint
 
 The appointment confirmation page gives the user a summary of their proposed booking before letting them confirm.  
 
-# Here is a component tree for the Langtastic App
-
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FuDF5HrQbouWqzKtDLctDEb%2FLangtastic-Component-Tree%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+# Here is a component tree for the Langtastic App [https://www.figma.com/file/uDF5HrQbouWqzKtDLctDEb/Langtastic-Component-Tree?node-id=0%3A1]
 
 There are many smaller components, but the main components are:
 - Navbar
