@@ -1,4 +1,5 @@
 # About Langtastic
+
 Langtastic was created by: Muna Fidow, Ines Perez and Toby Smith and Jubair Ahmed. 
 
 Langtastic is a web app designed to connect language learners to tutors. The platform allows users to book and manage appointments, and find a new tutor should they wish to learn a new language or switch tutors. 
@@ -39,6 +40,7 @@ There are many smaller components, but the main components are:
 - ConfirmationBox
 
 # Dependencies
+
   -  "@syncfusion/ej2-react-calendars": "^19.2.46",
   - "@testing-library/react": "^11.2.7",
   - "@testing-library/user-event": "^12.8.3",
@@ -54,6 +56,7 @@ There are many smaller components, but the main components are:
   -  "web-vitals": "^1.1.2"
   
 ## Dev Dependencies
+
   -  "@testing-library/jest-dom": "^5.14.1",
   -  "cypress": "^8.0.0",
   -  "eslint-plugin-cypress": "^2.11.3"  
@@ -61,6 +64,7 @@ There are many smaller components, but the main components are:
 # Changes made after code review
 
 ## Styling
+
 - Alignment of content of the Hompage to the center not to the right. 
 - Margin/padding added to homepage and tutor selection. 
 
@@ -70,17 +74,20 @@ I used mainly used react testing library to test the routing and rendering of co
 Some examples are shown below. 
 
 ### React Testing Library
+
 - [App level test to check correct routing](https://github.com/SchoolOfCode/w15_collaborative-react-project-langtastic-group-a/blob/natpinnock-testing-and-documentation/langtastic/src/components/App/app.test.js)
 - [Rendering of confirmationbox component](https://github.com/SchoolOfCode/w15_collaborative-react-project-langtastic-group-a/blob/natpinnock-testing-and-documentation/langtastic/src/components/Appointment_Confirmation/confirmationbox.test.js)
 - [Test using props, and checking for text content](https://github.com/SchoolOfCode/w15_collaborative-react-project-langtastic-group-a/blob/natpinnock-testing-and-documentation/langtastic/src/components/NavBar/Title/title.test.js)
 - [Test to check that components are visible](https://github.com/SchoolOfCode/w15_collaborative-react-project-langtastic-group-a/blob/natpinnock-testing-and-documentation/langtastic/src/components/Tutorselection/Tutorcard/tutorcard.test.js)
 
 ### Cypress
-- [checking that homepage renderd](https://github.com/SchoolOfCode/w15_collaborative-react-project-langtastic-group-a/blob/natpinnock-testing-and-documentation/langtastic/cypress/integration/init.spec.js)
+
+- [Testing that homepage renders](https://github.com/SchoolOfCode/w15_collaborative-react-project-langtastic-group-a/blob/natpinnock-testing-and-documentation/langtastic/cypress/integration/init.spec.js)
 - [End to End testing for booking and appointment](https://github.com/SchoolOfCode/w15_collaborative-react-project-langtastic-group-a/blob/natpinnock-testing-and-documentation/langtastic/cypress/integration/homepage.spec.js)
 - [Check that the tutor data contains the correct number of entries](https://github.com/SchoolOfCode/w15_collaborative-react-project-langtastic-group-a/blob/natpinnock-testing-and-documentation/langtastic/cypress/integration/tutors.spec.js)
 
 ## useReducer
+
 As there was only one instance of state within the app, useReducer has been used once [here:](https://github.com/SchoolOfCode/w15_collaborative-react-project-langtastic-group-a/blob/natpinnock-testing-and-documentation/langtastic/src/components/Appointment_Confirmation/Confirmationbox.js) 
 
 # How to launch the App
