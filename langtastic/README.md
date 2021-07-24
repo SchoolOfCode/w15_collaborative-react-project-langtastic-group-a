@@ -3,6 +3,10 @@ Langtastic was created by: Muna Fidow, Ines Perez and Toby Smith and Jubair Ahme
 
 Langtastic is a web app designed to connect language learners to tutors. The platform allows users to book and manage appointments, and find a new tutor should they wish to learn a new language or switch tutors. 
 
+## App Level
+
+The app uses react router to manage the navigation between different pages of the app. More information about react-router can be found here: https://reactrouter.com/web/guides/quick-start
+
 ## Home Page
 
 The homepage shows information about learning a new language, help with finding a tutor and some reviews of the site. 
@@ -34,6 +38,49 @@ There are many smaller components, but the main components are:
 
 ![image](https://user-images.githubusercontent.com/81474704/126871529-b3573a6f-f31a-49ad-b951-556459235aae.png)![image](https://user-images.githubusercontent.com/81474704/126871539-4fefef31-23ee-44f4-ab4e-3b51da0f6150.png)![image](https://user-images.githubusercontent.com/81474704/126871548-1fb152b1-a112-4b4e-96d3-750c1c46558c.png)
 
+# Dependencies
+  -  "@syncfusion/ej2-react-calendars": "^19.2.46",
+  - "@testing-library/react": "^11.2.7",
+  - "@testing-library/user-event": "^12.8.3",
+  -  "react": "^17.0.2",
+  -  "react-dom": "^17.0.2",
+  -  "react-icons": "^4.2.0",
+  -  "react-router-dom": "^5.2.0",
+  -  "react-scripts": "4.0.3",
+  -  "react-star-ratings": "^2.3.0",
+  -  "router": "^1.3.5",
+  -  "simple-react-footer": "^1.0.2",
+  -  "styled-components": "^5.3.0",
+  -  "web-vitals": "^1.1.2"
+  
+## Dev Dependencies
+  -  "@testing-library/jest-dom": "^5.14.1",
+  -  "cypress": "^8.0.0",
+  -  "eslint-plugin-cypress": "^2.11.3"  
+
+# Changes made after code review
+
+## Styling
+- Alignment of content of the Hompage to the center not to the right. 
+- Margin/padding added to homepage and tutor selection. 
+
+## Testing
+
+I used mainly used react testing library to test the routing and rendering of components onto the DOM. Some Cypress was used to practice end to end testing. 
+Some examples are shown below. 
+
+### React Testing Library
+- [App level test to check correct routing] (https://github.com/SchoolOfCode/w15_collaborative-react-project-langtastic-group-a/blob/natpinnock-testing-and-documentation/langtastic/src/components/App/app.test.js)
+- [Rendering of confirmationbox component] (https://github.com/SchoolOfCode/w15_collaborative-react-project-langtastic-group-a/blob/natpinnock-testing-and-documentation/langtastic/src/components/Appointment_Confirmation/confirmationbox.test.js)
+- [Test using props, and checking for text content] (https://github.com/SchoolOfCode/w15_collaborative-react-project-langtastic-group-a/blob/natpinnock-testing-and-documentation/langtastic/src/components/NavBar/Title/title.test.js)
+- [Test to check that components are visible] (https://github.com/SchoolOfCode/w15_collaborative-react-project-langtastic-group-a/blob/natpinnock-testing-and-documentation/langtastic/src/components/Tutorselection/Tutorcard/tutorcard.test.js)
+
+### Cypress
+- [checking that homepage renderd] ()
+
+## useReducer
+As there was only one instance of state within the app, useReducer has been used once: 
+https://github.com/SchoolOfCode/w15_collaborative-react-project-langtastic-group-a/blob/natpinnock-testing-and-documentation/langtastic/src/components/Appointment_Confirmation/Confirmationbox.js 
 
 # How to launch the App
 
