@@ -32,9 +32,7 @@ There are many smaller components, but the main components are:
 - AppointmentConfirmation
 - ConfirmationBox
 
-<span float="left">![image](https://user-images.githubusercontent.com/81474704/126871529-b3573a6f-f31a-49ad-b951-556459235aae.png)
-![image](https://user-images.githubusercontent.com/81474704/126871539-4fefef31-23ee-44f4-ab4e-3b51da0f6150.png)
-![image](https://user-images.githubusercontent.com/81474704/126871548-1fb152b1-a112-4b4e-96d3-750c1c46558c.png)</span>
+![image](https://user-images.githubusercontent.com/81474704/126871529-b3573a6f-f31a-49ad-b951-556459235aae.png)![image](https://user-images.githubusercontent.com/81474704/126871539-4fefef31-23ee-44f4-ab4e-3b51da0f6150.png)![image](https://user-images.githubusercontent.com/81474704/126871548-1fb152b1-a112-4b4e-96d3-750c1c46558c.png)
 
 
 # How to launch the App
