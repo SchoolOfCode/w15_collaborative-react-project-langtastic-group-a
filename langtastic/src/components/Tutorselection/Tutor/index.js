@@ -1,12 +1,16 @@
-import React from "react";
-import TutorCard from "./../Tutorcard";
+import React from 'react';
+import TutorCard from './../Tutorcard';
 
 function Tutor({ tutor }) {
   // console.log("miao");
   // console.log(id);
   return (
     <>
-      <TutorCard className="tutor-information" tutorInfo={tutor}></TutorCard>
+      <TutorCard
+        data-testid="tutor"
+        className="tutor-information"
+        tutorInfo={tutor}
+      ></TutorCard>
     </>
   );
 }
