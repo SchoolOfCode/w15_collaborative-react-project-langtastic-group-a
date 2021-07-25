@@ -34,6 +34,6 @@ Start the server
 
 Using React Developers Tools on Google Chrome you can inspect and see each component in the Langastic App.
 
-![image](https://user-images.githubusercontent.com/81432036/126900751-2b8a5a26-a313-417c-9a10-79e0d5f15044.png")
+![image](https://user-images.githubusercontent.com/81432036/126900751-2b8a5a26-a313-417c-9a10-79e0d5f15044.png)
 
 ### App
