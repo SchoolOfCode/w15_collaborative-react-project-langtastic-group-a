@@ -1,16 +1,16 @@
-import Logo from "./Logo";
+import Logo from './Logo';
 // import HandburgerMenu from "./HamburgerMenu";
-import Title from "./Title";
-import "./navBar.css";
-import { Link } from "react-router-dom";
+import Title from './Title';
+import './navBar.css';
+import { Link } from 'react-router-dom';
 
 function NavBar() {
   return (
     <>
-      <section id="navbar">
+      <section data-testid="navbar" id="navbar">
         <div id="navbar-logo" className="flex">
           <Link to="/">
-            <Logo></Logo>{" "}
+            <Logo></Logo>{' '}
           </Link>
           <Link to="/">
             <Title title="Langtastic"></Title>
@@ -31,9 +31,9 @@ function NavBar() {
 
           <Link
             to={{
-              pathname: "/appointment_confirmation",
+              pathname: '/appointment_confirmation',
               state: {
-                dog: "rookie",
+                dog: 'rookie',
               },
             }}
           >

@@ -5,6 +5,6 @@ import Dashboard from '.';
 
 test('Dashboard should render onto the DOM', () => {
   const { getByTestId } = render(<Dashboard />);
-  const actual = getByTestId('dashboard');
+  const actual = getByTestId('dashboard-container');
   expect(actual).toBeInTheDocument();
 });
