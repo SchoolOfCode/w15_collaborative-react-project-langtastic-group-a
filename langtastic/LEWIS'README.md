@@ -22,6 +22,9 @@ Secondly, after rendering, i checked some of the props within some of the compon
 
 ### Test files for Components:
 
+**App**
+[Click here](langtastic\src\components\App\index.test.js)
+
 **Appointment_confirmation:**
 [Click here](langtastic\src\components\Appointment_Confirmation)
 
