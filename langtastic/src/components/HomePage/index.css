@@ -3,9 +3,10 @@ h1 {
 }
 
 #home-page {
+  max-width: 100vw;
+  margin: 1rem;
+  padding: 1rem;
   background-color: white;
-  margin-left: 750px;
-  width: 22%;
   align-items: center;
   border: 1px solid black;
   text-align: initial;
@@ -14,6 +15,13 @@ h1 {
 div {
   box-shadow: 0 10px 16px 0 rgba(102, 55, 55, 0.2);
   transition: 0.5s;
+}
+
+#homepage {
+  box-shadow: 0 10px 16px 0 rgba(102, 55, 55, 0.2);
+  transition: 0.5s;
+  margin: 1rem;
+  padding: 1rem;
 }
 
 /* .footer {

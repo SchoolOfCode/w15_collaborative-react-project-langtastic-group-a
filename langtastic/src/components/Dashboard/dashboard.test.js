@@ -1,11 +1,10 @@
 import React from 'react';
 import { render } from '@testing-library/react';
+import '@testing-library/jest-dom';
+import Dashboard from '.';
 
-import Dashboard from './index';
-
-test(`The confirmation box renders within the Dashboard container`, () => {
+test('Dashboard should render onto the DOM', () => {
   const { getByTestId } = render(<Dashboard />);
-  const actual = getByTestId('dashboard-container');
+  const actual = getByTestId('dashboard');
   expect(actual).toBeInTheDocument();
 });
-
