@@ -8,6 +8,10 @@ Inside of the components folder are a list of different folders each with more n
 
 ## Using the React Hook:
 
+When it comes to using React hooks, i found it more suited to use the reducer hook, this is an alternative to useState.
+
+In this code, i used it for the [ConfirmationBox.js](langtastic\src\components\Appointment_Confirmation\Confirmationbox.js) with the two different states being "yes" and "no"
+
 ## Testing:
 
 As part of this checkpoint challenge we were given the task to test the logic and the components of this project, which was created by another group.
