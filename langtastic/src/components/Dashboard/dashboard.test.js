@@ -8,3 +8,4 @@ test(`The confirmation box renders within the Dashboard container`, () => {
   const actual = getByTestId('dashboard-container');
   expect(actual).toBeInTheDocument();
 });
+
