@@ -50,7 +50,7 @@ All components are located inside the components folder inside src folder. There
 
 A libs folder is also used where all the tutordata information JS object is kept.
 
-### App
+## App
 
 This is the main component of the app. React router is used to navigate between the different pages of the app. For a guige on how to user React router you can start by reading [this article](https://medium.com/@mareena_codes/a-simple-guide-to-using-react-router-aecbf2410a76).
 
@@ -88,6 +88,7 @@ The appointment confirmation page gives the user a summary of their proposed boo
 # Dependencies
 
 - "@syncfusion/ej2-react-calendars": "^19.2.46",
+- @testing-library/jest-dom": "^5.14.1"
 - "@testing-library/react": "^11.2.7",
 - "@testing-library/user-event": "^12.8.3",
 - "react": "^17.0.2",
