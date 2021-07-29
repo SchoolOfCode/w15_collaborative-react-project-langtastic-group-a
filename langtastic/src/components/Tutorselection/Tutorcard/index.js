@@ -3,9 +3,10 @@ import TutorName from "./../../Dashboard/BookingInformation/TutorInformation/Tut
 import TutorPicture from "./../../Dashboard/BookingInformation/TutorInformation/TutorPicture";
 import Bookingbutton from "./../Booknowbutton";
 import { Rating } from "./../../../utils/utils";
+
 function TutorCard({ tutorInfo }) {
   return (
-    <section className="tutor-information">
+    <section className="tutor-information" data-testid="tutor-card">
       <TutorPicture src={tutorInfo.picture} alt="Tutor Image"></TutorPicture>
       <div className="inner-div">
         {Rating(tutorInfo.rating)}
