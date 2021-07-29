@@ -3,9 +3,9 @@ import { Router } from "react-router-dom";
 import "@testing-library/jest-dom";
 import userEvent from "@testing-library/user-event";
 import { createMemoryHistory } from "history";
+
 import "@testing-library/jest-dom/extend-expect";
 
-import App from "./App";
 import Dashboard from "../Dashboard";
 import HomePage from "../HomePage";
 import NavBar from "../NavBar";
@@ -19,14 +19,10 @@ test("When on the Dashboard page, clicking the Title renders the homepage onto t
       <HomePage />
     </Router>
   );
+
   expect(screen.getByText("Upcoming Bookings")).toBeInTheDocument();
+
   const leftClick = { button: 0 };
   userEvent.click(screen.getByTestId("title"), leftClick);
   expect(screen.getByTestId("homepage")).toBeInTheDocument();
-});
-
-test("renders learn react link", () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
 });
