@@ -7,13 +7,13 @@ import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <>
-      <section id="navbar">
+      <section id="navbar" data-testid="navbar">
         <div id="navbar-logo" className="flex">
           <Link to="/">
             <Logo></Logo>{" "}
           </Link>
           <Link to="/">
-            <Title title="Langtastic"></Title>
+            <Title title="Langtastic" data-testid="title"></Title>
           </Link>
         </div>
         <div>
@@ -21,7 +21,18 @@ function NavBar() {
             <p>Dashboard</p>
           </Link>
           <Link to="/tutorselection">
-            <p>TutorSelection</p>
+            <p data-testid="tutor-selection" className="tutorselection">
+              TutorSelection
+            </p>
+          </Link>
+
+          <Link
+            to={{
+              pathname: "/appointment_confirmation",
+            }}
+            data-testid="confirmation"
+          >
+            Appointment Confirmation
           </Link>
         </div>
 
